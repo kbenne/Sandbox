@@ -1,4 +1,4 @@
 project(eztest)
 
-add_executable(main.cpp ezOptionParser.hpp)
+add_executable(eztest main.cc ezOptionParser.hpp)
 
