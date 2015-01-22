@@ -1872,7 +1872,7 @@ void ezOptionParser::getUsageDescriptions(std::string & usage, int width, Layout
     SplitDelim(groups[k]->help, '\n', desc);
     // Split lines longer than allowable help width.
     for(insertionIter=desc.begin(), cIter=insertionIter++; 
-        cIter != desc.end(); 
+        cIter != desc.end() && insertionIter != desc.end(); 
         cIter=insertionIter++) {
       if ((long int)((*cIter)->size()) > helpwidth) {
         // Get pointer to next string to insert new strings before it.
