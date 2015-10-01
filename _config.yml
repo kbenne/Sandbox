@@ -3,8 +3,8 @@ title: The Dumpster
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   This is my dumpster for all things I don't know what to do with.
-baseurl: "Sandbox" # the subpath of your site, e.g. /blog/
-url: "kbenne.github.io" # the base hostname & protocol for your site
+#baseurl: "/Sandbox/" # the subpath of your site, e.g. /blog/
+#url: "kbenne.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
