@@ -71,3 +71,5 @@ Create another file /Library/LaunchDaemons/com.nrel.ci.plist with this content, 
 </plist>
 {% endhighlight %}
 
+Restart the machine or try ```launchctl load /Library/LaunchDaemons/com.nrel.ci.plist```
+
