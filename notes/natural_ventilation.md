@@ -24,4 +24,6 @@ The principle difference between the zone ventilation models is the shape of the
 
 OpenStudio 1.9.0 only supports ZoneVentilationDesignFlowRate although the WindowStackOpenArea object could easily be added on request.
 
+There is a relevant thread on [UnmetHours](https://unmethours.com/question/13/how-do-you-model-operable-windows/) about this topic.
+
 
